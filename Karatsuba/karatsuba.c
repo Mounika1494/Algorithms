@@ -38,6 +38,7 @@ int karatsuba(int a,int b,int c,int d,int n)
 
 int Multiply(int m,int n)
 	{
+	 printf(m:%d,n:%d\n",m,n);
 	 int no_of_digits;
   	 no_of_digits = findnoofdigits(m);
          int shift = no_of_digits/2;
